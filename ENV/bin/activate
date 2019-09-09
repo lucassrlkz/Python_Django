@@ -51,6 +51,7 @@ export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/bin:$PATH"
+PATH="$PATH:/usr/local/bin/mysql/bin/"
 export PATH
 
 # unset PYTHONHOME if set

@@ -1,4 +1,9 @@
 {
     "git.ignoreLimitWarning": true,
-    "python.pythonPath": "ENV/bin/python3.6"
+    "python.pythonPath": "ENV/bin/python3.6",
+    "cSpell.words": [
+        "gerenciador",
+        "tarefa",
+        "tarefas"
+    ]
 }
