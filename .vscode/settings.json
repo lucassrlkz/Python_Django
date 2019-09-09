@@ -4,9 +4,12 @@
     "cSpell.words": [
         "gerenciador",
         "gocw",
+        "mysqli",
         "path",
         "sqlite",
         "tarefa",
         "tarefas"
-    ]
+    ],
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "vscode-icons"
 }
