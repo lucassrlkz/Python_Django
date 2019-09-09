@@ -2,8 +2,16 @@
 
 {% block conteudo %}
 
-<form method="post">
-{{form_tarefa.titulo}}
-</form>
+<div class="form-group">
+    <form method="post" class="form-inline">
+        <label>Título</label>
+            {{form_tarefa.titulo}}
 
+        <label>Descrição</label>
+            {{form_tarefa.descricao}}
+
+        <label>Data-expiração</label>
+            {{form_tarefa.data_expiracao}}
+    </form>
+</div>
 {% endblock conteudo %}
