@@ -2,13 +2,16 @@
     "git.ignoreLimitWarning": true,
     "python.pythonPath": "/usr/bin/python3",
     "cSpell.words": [
+        "Baixa",
+        "PRIORIDADE",
         "gerenciador",
         "gocw",
         "mysqli",
         "path",
         "sqlite",
         "tarefa",
-        "tarefas"
+        "tarefas",
+        "titulo"
     ],
     "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "vscode-icons"
