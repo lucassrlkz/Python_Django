@@ -76,14 +76,11 @@ WSGI_APPLICATION = 'gerenciador_tarefas.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'gerenciador_tarefas',
-        'USER': 'root',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
-        'PORT': 3366
+        'ENGINE': 'django.db.backends.sqLite3',
+        'NAME': os.path.join(BASE_DIR,'db.sqLite3'),
+        }        
     }
-}
+
 
 
 # Password validation
