@@ -8,7 +8,7 @@ def listar_tarefas():
     return Tarefa.objects.all()
 
 def listar_tarefa_id(id):
-    Tarefa.objects.get(id=id)
+    return Tarefa.objects.get(id=id)
 
 def editar_tarefa(tarefa_bd, tarefa_nova):
     tarefa_bd.titulo = tarefa_nova.titulo
