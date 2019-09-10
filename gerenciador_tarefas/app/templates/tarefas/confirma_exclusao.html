@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load meus_filtros %}
+
+{% block conteudo %}
+
+  <div class="card mb-3">
+    <div class="card-header">
+      Tem certeza que deseja remover a tarefa abaixo?
+    </div>
+    <div class="card-body">
+      <h4 class="card-title">{{tarefa.titulo}}</h4>
+      <p class="card-text">{{tarefa.descricao}}</p>
+      <hr>
+      <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Remover</button>
+      </form>
+    </div>
+  </div>
+{% endblock conteudo %}
