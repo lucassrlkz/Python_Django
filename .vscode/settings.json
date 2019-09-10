@@ -4,14 +4,22 @@
     "cSpell.words": [
         "Baixa",
         "PRIORIDADE",
+        "cadastrar",
+        "descricao",
+        "editar",
+        "entidades",
+        "expiracao",
         "gerenciador",
         "gocw",
         "mysqli",
         "path",
+        "propriedade",
         "sqlite",
         "tarefa",
         "tarefas",
-        "titulo"
+        "titulo",
+        "treina",
+        "wiget"
     ],
     "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "vscode-icons"

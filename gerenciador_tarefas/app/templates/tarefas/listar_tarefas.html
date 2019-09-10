@@ -2,7 +2,21 @@
 
 {% block conteudo %}
   
-  <h1>Listagem de Tarefas</h1>
-  <h2>{{nome_tarefa}}</h2>
+  <h1>Listagem de Tarefas</h1> 
 
+{% for tarefa in tarefas %}
+  <div class="card mb-3">
+    <div class="card-header">
+      {{tarefa.get_prioridade_display}}
+    </div>
+    <div class="card-body">
+      <h4 class="card-title">{{tarefa.titulo}}</h4>
+      <p class="card-text">{{tarefa.descricao}}</p>
+      <hr>
+      <a class="btn btn-secondary" href="{% url 'editar_tarefa' tarefa.id %}" role="button">Alterar tarefa</a>
+    </div>
+  </div>
+{% endfor %}
+
+  <a class="btn btn-primary" href="{% url 'cadastrar_tarefa'%}" role="button">Cadastrar Tarefas</a>
 {% endblock conteudo %}
