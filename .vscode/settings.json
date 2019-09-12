@@ -8,6 +8,7 @@
         "descricao",
         "editar",
         "entidades",
+        "exclusao",
         "expiracao",
         "gerenciador",
         "gocw",
@@ -19,8 +20,14 @@
         "tarefas",
         "titulo",
         "treina",
+        "usuario",
+        "usuarios",
         "wiget"
     ],
     "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "cSpell.ignoreWords": [
+        "remover",
+        "tarefa"
+    ]
 }
